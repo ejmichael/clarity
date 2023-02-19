@@ -1,6 +1,6 @@
-#Clarity Commerce Project with ReactJS and Firebase
+# Clarity Commerce Project with ReactJS and Firebase
 
-##Live Application can be viewed on
+## Live Application can be viewed on
 
 https://clarity-task.web.app
 
@@ -9,7 +9,7 @@ This web based application allows visitors to view products sold by the client. 
 
 The client, when logged in, can view their admin panel with all the products being sold and edit each product.
 
-##Technologies
+## Technologies
 - ReactJS
 - Firebase
 - Material UI
@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-##Known Bugs
+## Known Bugs
 - The navbar does not update the user state when the user clicks the logout icon.
 - When refreshing the page, the user is logged out. 
 - The admin cannot add new products.
