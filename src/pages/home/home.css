@@ -1,0 +1,10 @@
+.home-page .scroll {
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 80px;
+}

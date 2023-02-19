@@ -1,0 +1,38 @@
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heading {
+  margin-bottom: 20px;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+}
+
+button {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #c0051c;
+  background-color: #fff;
+  color: #c0051c;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #c0051c;
+  color: #fff;
+}

@@ -1,0 +1,47 @@
+.edit-product {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: centre;
+  align-items: center;
+}
+
+.productDetails {
+  margin: auto;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+}
+
+input {
+  width: 100%;
+  margin: 10px 0;
+  height: 20px;
+}
+
+.edit-product-image {
+  border: 1px solid #ccc;
+  margin: 10px 0;
+  width: 100%;
+  display: flex;
+}
+
+.edit-product-image img {
+  width: 80%;
+  margin: auto;
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.edit-buttons button {
+  margin: auto 5px;
+}
