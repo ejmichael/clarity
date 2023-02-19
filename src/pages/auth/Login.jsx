@@ -20,16 +20,17 @@ const Login = () => {
 
   const {dispatch} = useContext(AuthContext)
 
+  //Sign the user in when the "Login" button is clicked
   const signIn = async(e) => {
     e.preventDefault();
     setLoading(true);
     setError(false)
 
+    //check if the fields are filled in
     if(email === '' || password === '') {
       alert('Please enter your email and password');
       return;
     }
-
     try {
       await signInWithEmailAndPassword(auth, email, password).then((userCredential) => {
         const user = userCredential.user;
@@ -64,10 +65,10 @@ const Login = () => {
           onChange={(e) => {setPassword(e.target.value)}}
         />
         <Button onClick={signIn} variant="contained" color="error">{loading ? "Logging in..." : "Login"}</Button>
-          {error ? <p>You entered the wrong email or password!</p> : null}
         <Link to='/register' style={{textDecoration: 'none', marginTop: '5px'}}>
           <Button variant="outlined" color="error">Register</Button>
         </Link>
+        {error ? <p>You entered the wrong email or password!</p> : null}
       </form>
     </div>
   )

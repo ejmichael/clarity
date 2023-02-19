@@ -24,15 +24,14 @@ const ViewProduct = () => {
         setLoading(false);
     };
 
-    console.log(productData)
-
+    //create an array of all the stock values
     const stock = [];
 
     if (productData) {
         for (let i = 0; i < productData.stock; i++) {
             stock.push(i)
         }
-    }
+    };
 
     //fetch data on page load
     useEffect(() => {
@@ -54,11 +53,6 @@ const ViewProduct = () => {
                         <ArrowBackIcon />
                     </NavLink>
                 </div>
-                {/* <div className="product-images">
-                    {productData.images.map((image) =>(
-                        <img alt={image} src={image} />
-                    ))}
-                </div> */}
                 <div className="product-image">
                     <img src={productData.thumbnail} alt={productData.title}/>
                 </div>

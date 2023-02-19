@@ -1,17 +1,11 @@
 import React, { useContext, useState } from 'react';
 import './nav.css';
-
 import { Link, useNavigate } from 'react-router-dom'
-
-//icon
 import LogoutIcon from '@mui/icons-material/Logout';
 import { Avatar, Button, List, ListItem, ListItemAvatar, ListItemButton, ListItemText, TextField, Typography } from '@mui/material';
-
 import { auth } from '../../firebaseConfig';
 import { signOut } from 'firebase/auth'
-
 import { AuthContext } from '../../context/AuthContext'
-
 
 const Navbar = ({productData}) => {
 
@@ -38,8 +32,6 @@ const Navbar = ({productData}) => {
             return product['title'].toLowerCase().includes(searchInput);
         }  
     });
-
-    console.log(search.length);
 
   return (
     <div className="navbar">
