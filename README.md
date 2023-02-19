@@ -4,6 +4,11 @@
 
 https://clarity-task.web.app
 
+### Login as Admin/Client:
+- admin@testmail.com | Password: 12345678a!
+
+### Create a user by registering a new account
+
 ## Project Description
 This web based application allows visitors to view products sold by the client. The user can search for products they are looking for and also view each product and details.
 
