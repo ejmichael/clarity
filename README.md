@@ -26,6 +26,10 @@ The client, when logged in, can view their admin panel with all the products bei
 
 In the project directory, you can run:
 
+### `npm install`
+
+Install all required modules and dependencies.
+
 ### `npm start`
 
 Runs the app in the development mode.\
